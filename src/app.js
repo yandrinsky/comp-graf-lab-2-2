@@ -64,7 +64,7 @@ export const App = () => {
                         onCancel={() => {
                             dotsState.splice(index, 1);
                             setDotsState([...dotsState.slice(0, index), ...dotsState.slice(index, dotsState.length)]);
-                            console.log([...dotsState.slice(0, index), ...dotsState.slice(index, dotsState.length)])
+                            rerender();
                         }}
 
                         onCoordsChange={(newDot) => {
