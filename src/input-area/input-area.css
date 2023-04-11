@@ -1,0 +1,26 @@
+.input-area {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    padding: 10px;
+    max-height: 120px;
+    border: 1px solid black;
+}
+
+.dotNumber {
+    text-align: center;
+}
+
+.cancel {
+    display: inline ;
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    cursor: pointer;
+}
